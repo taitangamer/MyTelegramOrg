@@ -60,11 +60,11 @@ LOGGER = logging.getLogger(__name__)
 INPUT_PHONE_NUMBER, INPUT_TG_CODE = range(2)
 GLOBAL_USERS_DICTIONARY = {}
 
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "KenalSayaaa")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "taitangamer")
 
 keyboard = [[
-            InlineKeyboardButton('My Developer', url=f"https://t.me/{OWNER_USERNAME}"),
-            InlineKeyboardButton('Source 👻', url="https://github.com/PunyaChael/MyTelegramOrg")
+            InlineKeyboardButton('♕ 𝐎𝐰𝐧𝐞𝐫 ♕', url=f"https://t.me/{OWNER_USERNAME}"),
+            InlineKeyboardButton('🥀 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💥', url="https://t.me/timepassgroup01")
         ]]
 
 def start(update, context):
